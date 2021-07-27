@@ -1,0 +1,11 @@
+<p>api works!</p>
+<button (click)="getPosts()">Get Dog</button>
+
+
+<!--  Type: {{ post.type | json }}<br>-->
+<!--  {{ post.setup | json }}<br>-->
+<!--  {{ post.punchline | json }}-->
+<div>
+  <span *ngFor="let dog of posts"><img src="{{dog}}" class="img"></span>
+</div>
+
